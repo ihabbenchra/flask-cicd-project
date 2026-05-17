@@ -7,7 +7,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", "admin123")
 
 @app.route("/")
 def home():
-    return jsonify({"message": "Bienvenue"})
+    return jsonify({"message": "Bienvenue-Soutenance"})
 
 @app.route("/sante")
 def sante():
